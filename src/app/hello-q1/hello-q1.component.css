@@ -1,0 +1,23 @@
+/* Application-wide Styles */
+.parent-flex{
+  display:flex;
+  height:800px;
+}
+.parent-flex .left-child{
+  width:200px;
+  border: 1px solid black;
+}
+.parent-flex .center-child{
+  width:100%;
+  border: 1px solid black;
+  min-width:100px;
+}
+.parent-flex .right-child{
+  width:300px;
+  border: 1px solid black;
+}
+@media screen and (max-width: 600px) {
+  .parent-flex{
+    overflow: scroll;
+  }
+}
