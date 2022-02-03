@@ -1,7 +1,6 @@
 <div class="parent-flex">
     <div class="left-child">
         <input #integerElem [ngModel]="integerInput" (ngModelChange)="integerInputChange($event)"/>
-        <p>{{ integerInput }}</p>
     </div>
     <div class="center-child">
         <select [ngModel]="selectedCalculation" (ngModelChange)="calculationChange($event)">
